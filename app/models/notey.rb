@@ -1,0 +1,2 @@
+class Notey < ApplicationRecord
+end

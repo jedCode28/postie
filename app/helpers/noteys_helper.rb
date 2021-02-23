@@ -1,0 +1,2 @@
+module NoteysHelper
+end
