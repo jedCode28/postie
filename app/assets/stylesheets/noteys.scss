@@ -1,3 +1,19 @@
 // Place all the styles related to the noteys controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.noteys-container {
+  max-width: 900 px;
+  margin: auto;
+  background-color: lightblue;  
+  padding: 10px;
+}
+
+.notey-container {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 4px 4px #f2f2f2;
+  background-color: orange;
+}
+
