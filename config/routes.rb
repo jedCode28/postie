@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
+  root "noteys#index"
   #resources :noteys
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   get '/noteys', to: "noteys#index"
-  #get '/noteys/new
+  get '/noteys/new', to: "noteys#new"
+  get '/noteys/:id', to: "noteys#show"
+  get '/noteys/:id/edit', to: "noteys#edit"
+  post '/noteys', to:"noteys#create"
+  patch '/noteys/:id', to: "noteys#update"
+  
+  delete '/noteys/:id', to: "noteys#destroy"
 end
